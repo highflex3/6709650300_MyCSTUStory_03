@@ -315,3 +315,37 @@ body, html {
     border-radius: 50px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
 }
+
+@media (max-width: 1024px) {
+
+    .header h1 {
+        font-size: 32px;
+    }
+
+    .profile img {
+        width: 250px;
+    }
+
+    .about {
+        height: 24rem;
+    }
+    
+    .description {
+        height: 30rem;
+    }
+
+    .contact {
+        height: 2.5rem;
+    }
+
+    .video h1 {
+        font-size: 28px;
+    }
+
+    .fav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+}
